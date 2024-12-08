@@ -18,8 +18,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          #repository: lobehub/lobe-chat
-          repository: stone-w4tch3r/lobe-chat-fork
+          repository: lobehub/lobe-chat
+          #repository: stone-w4tch3r/lobe-chat-fork
 
       - name: Log in to the Container registry
         uses: docker/login-action@v2
